@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="@@description">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Навигация</title>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<main class="content">
+			<section class="navigation">
+				<div class="container">
+					<div class="navigation__inner">
+						<ul class="navigation__list">
+							<li><a href="index.html">Главная</a></li>
+							<li>
+								<button class="navigation__btn btn btn-red" data-modal="contactModal">
+									<span>Бесплатная консультация</span>
+								</button>
+							</li>
+							<li>
+								<button class="navigation__btn btn btn-red" data-modal="contactModal2">
+									<span>Задать вопрос</span>
+								</button>
+							</li>
+							<li>
+								<button class="navigation__btn btn btn-red" data-modal="contactModal3">
+									<span>Машина</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<div class="modal modal-form" id="contactModal">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close2.svg" alt="">
+			</button>
+			<div class="modal__dialog">
+				<div class="modal__content">
+					<div class="modal-form__title"><strong>Бесплатная консультация</strong> специалиста</div>
+					<div class="modal-form__subtitle">Подберем для вас лучший вариант, вышлем актуальную стоимость и расскажем схему работы.</div>
+					<form class="form">
+						<div class="form-group">
+							<input type="text" placeholder="Как Вас зовут?">
+						</div>
+						<div class="form-group">
+							<input class="phone-mask" type="tel" placeholder="+7(___) ___-__-__">
+						</div>
+						<button class="form-btn btn btn-red">
+							<span>Отправить</span>
+						</button>
+						<div class="form-check">
+							<input type="checkbox">
+							<label>Нажимая кнопку вы соглашаетесь с условиями <a href="">Политики конфиденциальности</a></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal modal-form" id="contactModal2">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close2.svg" alt="">
+			</button>
+			<div class="modal__dialog">
+				<div class="modal__content">
+					<div class="modal-form__title"><strong>Задать вопрос</strong></div>
+					<form class="form">
+						<div class="form-group">
+							<input type="text" placeholder="Как Вас зовут?">
+						</div>
+						<div class="form-group">
+							<input class="phone-mask" type="tel" placeholder="+7(___) ___-__-__">
+						</div>
+						<div class="form-group">
+							<textarea placeholder="Ваш вопрос"></textarea>
+						</div>
+						<button class="form-btn btn btn-red">
+							<span>Отправить</span>
+						</button>
+						<div class="form-check">
+							<input type="checkbox">
+							<label>Нажимая кнопку вы соглашаетесь с условиями <a href="">Политики конфиденциальности</a></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal modal-car" id="contactModal3">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close2.svg" alt="">
+			</button>
+			<div class="modal__dialog">
+				<div class="modal__content">
+					<div class="modal-car__wrap">
+						<div class="gallery-wrap">
+							<div class="gallery">
+								<div class="gallery__big swiper mySwiper2">
+									<div class="swiper-wrapper gallery-group">
+										<a class="swiper-slide" href="img/modal-car__img.png" data-fancybox="gallery">
+											<img src="img/modal-car__img.png" alt="">
+										</a>
+										<a class="swiper-slide" href="img/modal-car__img.png" data-fancybox="gallery">
+											<img src="img/modal-car__img.png" alt="">
+										</a>
+										<a class="swiper-slide" href="img/modal-car__img.png" data-fancybox="gallery">
+											<img src="img/modal-car__img.png" alt="">
+										</a>
+									</div>
+								</div>
+								<div thumbsslider="" class="gallery__small swiper mySwiper">
+									<div class="swiper-wrapper">
+										<a class="swiper-slide">
+											<img src="img/modal-car__img.png" alt="">
+										</a>
+										<a class="swiper-slide">
+											<img src="img/modal-car__img.png" alt="">
+										</a>
+										<a class="swiper-slide">
+											<img src="img/modal-car__img.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-car__desc">
+							<div class="modal-car__title"><strong>Changan UNI T Premium 2022 год</strong></div>
+							<ul class="car-card__list">
+								<li>
+									<span>Год</span>
+									<span>2020</span>
+								</li>
+								<li>
+									<span>Пробег, км</span>
+									<span>119 647</span>
+								</li>
+								<li>
+									<span>Владельцев</span>
+									<span>3</span>
+								</li>
+							</ul>
+							<div class="modal-car__price">2 300 000 ₽</div>
+							<button class="modal-car__btn btn btn-red">
+								<span>Забронировать</span>
+							</button>
+						</div>
+					</div>
+					<div class="modal-car__text">
+						<p>Базовым агрегатом для кроссовера служит 1,5-литровый турбомотор серии Blue Core, известный по современным моделям Changan. Он имеет непосредственный впрыск и оснащен турбиной с повышенным давлением наддува, благодаря чему отдача достигает 180 л.с., а крутящий момент имеет максимум в 300 Нм (при 1250-3500 об/мин). Расход топлива — 6,3 л/100 км. Данный двигатель работает исключительно в паре с 7-ступенчатым роботом с двумя сцеплениями. С места до 100 км/ч n UNI-T в этой модификации разгоняется за 7,6 секунды, а максимальная скорость — 205 км/ч. В 2021 году мотор был форсирован до 188 «сил» с сохранением того же значения крутящего момента, но теперь в диапазоне 1500-4000 об/мин. Расход снижен до 6,1 л/100 км. С конца 2021 года кроссовер продают еще и с 2,0-литровым турбомотором в качестве альтернативы — этот агрегат уже известен по новой модели UNI-K. Его максимальная отдача достигает 232 л.с. и 390 Нм крутящего момента (при 1900-3300 об/мин). Максимальная скорость с таким мотором, который соединен с 8-ступенчатым «автоматом», увеличивается до 215 км/ч. Расход топлива — 6,7 л/100 км.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+
+
+	<script type="text/javascript">
+    ymaps.ready(init);
+
+    function init() {
+        var myMap = new ymaps.Map("map", {
+            center: [55.674072, 37.657664],
+            zoom: 15
+        });
+
+        var myPlacemark = new ymaps.Placemark([55.674072, 37.657664], null, {
+            iconLayout: 'default#image',
+            iconImageHref: "img/map-icon.svg",
+            iconImageSize: [48, 64],
+            // iconImageOffset: [-15, -44]
+        });
+        myMap.geoObjects.add(myPlacemark);
+        myMap.behaviors.disable('scrollZoom');
+
+    }
+</script>
+</body>
+
+<style>
+	.navigation {
+		padding: 50px 0;
+	}
+	.navigation__list {
+		display: grid;
+		grid-template-columns: 100%;
+		gap: 24px;
+	}
+	.navigation__list li a {
+		font-size: 24px;
+		line-height: 120%;
+		font-weight: 500;
+	}
+	.navigation__list li a:hover {
+		color: #8D8D8D;
+	}
+	.navigation__btn {
+		height: 64px;
+		border-radius: 193px;
+		padding: 5px 30px;
+	}
+	.navigation__btn span {
+		font-size: 20px;
+	}
+</style>
+
+</html>
