@@ -373,68 +373,61 @@
 					<div class="quiz__inner">
 						<h2 class="quiz__title h2">Расчитайте стоимость вашего <strong>будущего</strong> автомобиля</h2>
 						<div class="quiz__wrap">
-							<div class="quiz__left">
+							<div class="quiz__left quiz__left2">
 								<h2 class="quiz__title h2">Расчитайте стоимость вашего <strong>будущего</strong> автомобиля</h2>
-								<div class="quiz__subtitle">за 45 секунд, ответив на несколько вопросов</div>
-								<div class="progress-bar__wrap">
-									<span class="progress-bar"></span>
-									<span class="progress-percentage__text">Опрос пройден на <span class="progress-percentage">0</span></span>
-								</div>
 								<div class="quiz__content">
 									<div data-step="1" class="quiz-step quiz-step1 quiz-step--active">
-										<div class="quiz-step__title"><span>01</span> Выберите страну доставки</div>
-										<div class="quiz__checkboxes">
-											<div class="quiz__checkbox">
-												<input type="radio" name="quiz-checkbox">
-												<label>
-														<span class="quiz__checkbox-img">
-															<img src="img/quiz__checkbox-img.png" alt="">
-														</span>
-													<span class="quiz__checkbox-title">Корея</span>
-												</label>
+										<div class="quiz-calculator__subtitle">Итоговый расчёт по ссылке</div>
+										<div class="quiz-calculator__text">Вставьте ссылку c <a href="">mobile.de/ru</a> и мы посчитаем стоимость автомобиля с доставкой, таможней и уплатой утиль сбора для личного использования.</div>
+										<form class="quiz__form2 quiz-calculator__form form">
+											<div class="quiz__form-group form-group">
+												<textarea placeholder="Ссылка"></textarea>
 											</div>
-											<div class="quiz__checkbox">
-												<input type="radio" name="quiz-checkbox">
-												<label>
-														<span class="quiz__checkbox-img">
-															<img src="img/quiz__checkbox-img2.png" alt="">
-														</span>
-													<span class="quiz__checkbox-title">Европа</span>
-												</label>
-											</div>
+										</form>
+										<div class="quiz__group">
+											<button class="quiz__btn quiz-next btn btn-red">
+												<span>Рассчитать стоимость</span>
+											</button>
+											<div class="quiz__info2">Расчет является справочным. Стоимость сформирована итоговая, с учетом доставки и таможни, а также оплаты утиль сбора для личного использования. ВАЖНО! Стоимость указана под полную предоплату. В случае привоза а/м под минимальный задаток добавляется 5% к итоговой стоимости.</div>
 										</div>
 									</div>
 									<div data-step="2" class="quiz-step quiz-step2">
-										<div class="quiz-step__title"><span>02</span> Выберите модель и марку авто</div>
-										<form class="quiz__form form">
-											<div class="quiz__form-group form-group">
-												<label class="input-title">Выберите модель</label>
-												<input type="text" placeholder="">
+										<div class="quiz__group3">
+											<div class="quiz-calculator__subtitle2">Audi A3 sedan 30 1.0 tfsi s line edition</div>
+											<ul class="car-card__list">
+												<li>
+													<span>Объем ДВС</span>
+													<span>999 см3</span>
+												</li>
+												<li>
+													<span>Дата регистрации</span>
+													<span>07/2023</span>
+												</li>
+												<li>
+													<span>Пробег</span>
+													<span>23765</span>
+												</li>
+											</ul>
+											<div class="quiz-calculator__subtitle2">Итоговая стоимость автомобиля в Москве</div>
+											<div class="quiz__price">51 940 €</div>
+										</div>
+										<div class="quiz__group4">
+											<div class="quiz__subgroup">
+												<button class="quiz__btn quiz-next btn btn-red">
+													<span>Рассчитать стоимость</span>
+												</button>
+												<a href="" class="quiz__repeat">
+													<span>Повторить расчет</span>
+													<i>
+														<img src="img/repeat-icon.svg" alt="">
+													</i>
+												</a>
 											</div>
-											<div class="quiz__form-group form-group">
-												<label class="input-title">Выберите марку</label>
-												<input type="text" placeholder="">
-											</div>
-											<div class="quiz__form-group form-group">
-												<label class="input-title">Цена до</label>
-												<input type="text" placeholder="">
-											</div>
-											<div class="quiz__form-group form-group">
-												<label class="input-title">Первая регистрация</label>
-												<input type="text" placeholder="">
-											</div>
-											<div class="quiz__form-group form-group">
-												<label class="input-title">Пробег до</label>
-												<input type="text" placeholder="">
-											</div>
-											<div class="quiz__form-group form-group">
-												<label class="input-title">Выберите год</label>
-												<input type="text" placeholder="">
-											</div>
-										</form>
+											<div class="quiz__info2">Расчет является справочным. Стоимость сформирована итоговая, с учетом доставки и таможни, а также оплаты утиль сбора для личного использования. ВАЖНО! Стоимость указана под полную предоплату. В случае привоза а/м под минимальный задаток добавляется 5% к итоговой стоимости.</div>
+										</div>
 									</div>
 									<div data-step="3" class="quiz-step quiz-step3">
-										<div class="quiz-step__title"><span>03</span> Ваши контактные данные</div>
+										<div class="quiz-calculator__subtitle2">Оставьте ваши контактные данные и наши специалисты свяжутся с Вами</div>
 										<form class="quiz__form2 form">
 											<div class="quiz__form-grid">
 												<div class="quiz__form-group form-group">
@@ -453,12 +446,6 @@
 											</div>
 										</form>
 									</div>
-								</div>
-								<div class="quiz__group">
-									<div class="quiz__info">Выберите вариант ответа и нажмите кнопку “Далее”</div>
-									<button class="quiz__btn quiz-next btn btn-red">
-										<span>Далее</span>
-									</button>
 								</div>
 							</div>
 							<div class="quiz__right">
