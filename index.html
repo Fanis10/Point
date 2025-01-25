@@ -559,23 +559,23 @@
 					<div class="services__inner">
 						<h2 class="services__title h2">Наши <strong>услуги</strong></h2>
 						<div class="services__cards">
-							<div class="service-card">
-								<a href="" class="service-card__img">
+							<div class="service-card" data-modal="contactModal4">
+								<div class="service-card__img">
 									<img src="img/service-card__img.png" alt="">
-								</a>
-								<a class="service-card__title" href="">Подбор автомобиля</a>
+								</div>
+								<div class="service-card__title">Подбор автомобиля</div>
 							</div>
-							<div class="service-card">
-								<a href="" class="service-card__img">
+							<div class="service-card" data-modal="contactModal5">
+								<div class="service-card__img">
 									<img src="img/service-card__img2.png" alt="">
-								</a>
-								<a class="service-card__title" href="">Авто под заказ</a>
+								</div>
+								<div class="service-card__title">Авто под заказ</div>
 							</div>
-							<div class="service-card">
-								<a href="" class="service-card__img">
+							<div class="service-card" data-modal="contactModal6">
+								<div class="service-card__img">
 									<img src="img/service-card__img3.png" alt="">
-								</a>
-								<a class="service-card__title" href="">Прием на комиссию</a>
+								</div>
+								<div class="service-card__title">Прием на комиссию</div>
 							</div>
 						</div>
 					</div>
@@ -1228,6 +1228,87 @@
 			</div>
 		</div>
 	</div>
+    <div class="modal modal-form" id="contactModal4">
+        <button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <div class="modal-form__title"><strong>Подбор авто</strong></div>
+                <div class="modal-form__subtitle">Наши эксперты проведут полную техническую диагностику, проверят юридическую чистоту и историю, чтобы вы получили безупречный автомобиль, соответствующий вашим ожиданиям.
+                    Экономьте время на то, что действительно важно.</div>
+                <form class="form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Как Вас зовут?">
+                    </div>
+                    <div class="form-group">
+                        <input class="phone-mask" type="tel" placeholder="+7(___) ___-__-__">
+                    </div>
+                    <button class="form-btn btn btn-red">
+                        <span>Отправить</span>
+                    </button>
+                    <div class="form-check">
+                        <input type="checkbox">
+                        <label>Нажимая кнопку вы соглашаетесь с условиями <a href="">Политики конфиденциальности</a></label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-form" id="contactModal5">
+        <button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <div class="modal-form__title"><strong>Авто под заказ</strong></div>
+                <div class="modal-form__subtitle">Эксклюзивные модели из Европы и Кореи с персональным подходом к каждому клиенту. Гарантируем прозрачность сделки, полное таможенное оформление и доставку в кратчайшие сроки.
+                    Воплотим в реальность ваше представление об идеальном автомобиле.</div>
+                <form class="form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Как Вас зовут?">
+                    </div>
+                    <div class="form-group">
+                        <input class="phone-mask" type="tel" placeholder="+7(___) ___-__-__">
+                    </div>
+                    <button class="form-btn btn btn-red">
+                        <span>Отправить</span>
+                    </button>
+                    <div class="form-check">
+                        <input type="checkbox">
+                        <label>Нажимая кнопку вы соглашаетесь с условиями <a href="">Политики конфиденциальности</a></label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-form" id="contactModal6">
+        <button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <div class="modal-form__title"><strong>Прием авто на комиссию</strong></div>
+                <div class="modal-form__subtitle">Безопасная и быстрая продажа вашего премиального автомобиля по максимальной рыночной стоимости. Берем на себя полное сопровождение сделки, профессиональную предпродажную подготовку
+                    и привлечение целевых покупателей. Ваше время - наш приоритет.</div>
+                <form class="form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Как Вас зовут?">
+                    </div>
+                    <div class="form-group">
+                        <input class="phone-mask" type="tel" placeholder="+7(___) ___-__-__">
+                    </div>
+                    <button class="form-btn btn btn-red">
+                        <span>Отправить</span>
+                    </button>
+                    <div class="form-check">
+                        <input type="checkbox">
+                        <label>Нажимая кнопку вы соглашаетесь с условиями <a href="">Политики конфиденциальности</a></label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 	<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
